@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Haven</title>
+
+    <!-- swiper link  -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- cdn icon link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- custom css file  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- header section start here  -->
+    <header class="header">
+        <div class="logoContent">
+            <a href="#" class="logo"><img src="logo3.png" alt="logo3" align="left"></a>
+            <h1 class="logoName">Sweet Haven </h1>
+        </div>
+
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="#product">Product</a>
+            <a href="#review">About Us</a>
+            <a href="#contact">Contact</a>
+			<a href="#login">Log In</a>
+        </nav>
+
+        <div class="icon">
+            <i class="fas fa-search" id="search"></i>
+            <i class="fas fa-bars" id="menu-bar"></i>
+        </div>
+
+        <div class="search">
+		<form action="product.html" target="_blank" method="get">
+            <input type="Search" onkeyup="myFunction()" placeholder="Search...">
+			
+			</form>
+        </div>
+		<span class ="clear" onclick="document.getElementByid('search').value = ''""></span>
+    </header>
+    <!-- header section end here  -->
+
+    <!-- home section start here  -->
+    <section class="home" id="home">
+        <div class="homeContent">
+            
+			<h2>Go Get Some Sweets!</h2>
+            <p><b>The Sweet Haven Never Got So Much Better Than Today! Just Grab Some Sweets and 
+			Make Your Day Extra Special.</b></p>
+           
+        </div>
+    </section>
+
+    <!-- home section end here  -->
+
+    <!-- product section start here  -->
+    <section class="product" id="product">
+        <div class="heading">
+		
+            <h2>Our Exclusive Products</h2>
+        </div>
+        <div class="swiper product-row">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <div class="img">
+                        <img src="SCC.jfif" alt="SSC" style="width: 196px; height: 257px;">
+                    </div>
+                    <div class="product-content">
+                        <h3>Strawberry Chiffon Cake</h3>
+						<div class="PRICE">
+                       <button>
+						 <table>
+							<tr>
+							<th>Order</th>
+							<th>Price</th>
+							</tr>
+							<td rowspan="1">Slice</td>
+							<td>240.00</td>
+							</tr>
+							<tr>
+							<td rowspan="1">Whole</td>
+							<td>899.00</td> 
+							</table>
+							</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="img">
+                        <img src="MBC.jpg" alt="MBC" style="width: 196px; height: 257px;">
+                    </div>
+                    <div class="product-content">
+                        <h3>Mango Bravo Cake</h3>
+                        <div class="PRICE">
+					  <button>
+						<table>
+							<tr>
+							<th>Order</th>
+							<th>Price</th>
+							</tr>
+							<td rowspan="1">Slice</td>
+							<td>260.00</td>
+							</tr>
+							<tr>
+							<td rowspan="1">Whole</td>
+							<td>1,270.00</td> 
+							</table>
+							</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="img">
+                        <img src="CC.jpg" alt="CC" style="width: 196px; height: 257px;">
+                    </div>
+                    <div class="product-content">
+                        <h3>Carrot Cake</h3>
+                     
+                        <div class="PRICE">
+						<button>
+						  <table>
+							<tr>
+							<th>Order</th>
+							<th>Price</th>
+							</tr>
+							<td rowspan="1">Slice</td>
+							<td>240.00</td>
+							</tr>
+							<tr>
+							<td rowspan="1">Whole</td>
+							<td>699.00</td> 
+							</table>
+							</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="img">
+                        <img src="RVC.jpg" alt="RVC" style="width: 196px; height: 257px;">
+                    </div>
+                    <div class="product-content">
+                        <h3>Red Velvet</h3>
+                        
+                        <div class="PRICE">
+						<button>
+                           <table>
+							<tr>
+							<th>Order</th>
+							<th>Price</th>
+							</tr>
+							<td rowspan="1">Slice</td>
+							<td>220.00</td>
+							</tr>
+							<tr>
+							<td rowspan="1">Whole</td>
+							<td>799.00</td> 
+							</table>
+							</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        <div class="swiper product-row">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <div class="img">
+                        <img src="LLC.jfif" alt="LLC" style="width: 196px; height: 257px;">
+                    </div>
+                    <div class="product-content">
+                        <h3>Lemon and Lime Cake</h3>
+                        
+                        <div class="PRICE">
+					   <button>
+                          <table>
+							<tr>
+							<th>Order</th>
+							<th>Price</th>
+							</tr>
+							<td rowspan="1">Slice</td>
+							<td>220.00</td>
+							</tr>
+							<tr>
+							<td rowspan="1">Whole</td>
+							<td>799.00</td> 
+							</table>
+							</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="img">
+                        <img src="green tea.jpg" alt="green tea" style="width: 196px; height: 257px;">
+                    </div>
+                    <div class="product-content">
+                        <h3>Green Tea Cake</h3>
+
+                        <div class="PRICE">
+						<button>
+                           <table>
+							<tr>
+							<th>Order</th>
+							<th>Price</th>
+							</tr>
+							<td rowspan="1">Slice</td>
+							<td>240.00</td>
+							</tr>
+							<tr>
+							<td rowspan="1">Whole</td>
+							<td>869.00</td> 
+							</table>
+							</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="img">
+                        <img src="SCDC.jpg" alt="SCDC" style="width: 196px; height: 257px;">
+                    </div>
+                    <div class="product-content">
+                        <h3>Salted Caramel Drip Cake</h3>
+                       
+                        <div class="PRICE">
+                            <button>
+							<table>
+							<tr>
+							<th>Order</th>
+							<th>Price</th>
+							</tr>
+							<td rowspan="1">Slice</td>
+							<td>250.00</td>
+							</tr>
+							<tr>
+							<td rowspan="1">Whole</td>
+							<td>1,799.00</td> 
+							</table>
+							</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="img">
+                        <img src="CRMC.jpg" alt="CRMC" style="width: 196px; height: 257px;">
+                    </div>
+                    <div class="product-content">
+                        <h3>ChocoBerry Mousse Cake</h3>
+                        
+                        <div class="PRICE">
+						<button>
+                           <table>
+							<tr>
+							<th>Order</th>
+							<th>Price</th>
+							</tr>
+							<td rowspan="1">Slice</td>
+							<td>280.00</td>
+							</tr>
+							<tr>
+							<td rowspan="1">Whole</td>
+							<td>1,999.00</td> 
+							</table>
+							</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <!-- product section end here  -->
+
+    
+
+    <!-- newsletter section start here  -->
+
+    <section class="newsletter">
+	   <form action="">
+            <h3>To Order:</h3>
+            <input type="Name" name="" placeholder="Enter your Name" id="Name" class="box">
+			<input type="text" placeholder="Address" id="address" class="box">
+			<input type="Mobile Number" placeholder="Mobile Number" id="Mobile Number" class="box">
+			<select id="cake">
+			<option disabled selected value>  Choose a Flavor </option>
+			<option value="Strawberry Chiffon">Strawberry Chiffon</option>
+			<option value="Mango Bravo">Mango Bravo</option>
+			<option value="Carrot Cake">Carrot Cake</option>
+			<option value="Red Velvet">Red Velvet</option>
+			<option value="Lemon & Lime Cake">Lemon & Lime Cake</option>
+			<option value="Green Tea Cake">Green Tea Cake</option>
+			<option value="Salted Caramel Drip Cake">Salted Caramel Drip Cake</option>
+            <option value="ChocoBerry Mousse Cake">ChocoBerry Mousse Cake</option>
+            ChocoBerry Mousse Cake
+			</select>
+            <select id="Size">
+			<option disabled selected value> Choose a Size </option>
+			<option value="Strawberry Chiffon">Whole Cake</option>
+			<option value="Mango Bravo">Slice Cake</option>
+			</select>
+			<select id="Order">
+			<option disabled selected value> Option For Ordering</option>
+			<option value="Dine In">Dine In</option>
+			<option value="Take Out">Take Out</option>
+			</select>
+            <input type="button" value="Order Now" class="box">
+			<form onsubmit="return false">
+        </form>
+    </section>
+    <!-- newsletter section ends here  -->
+
+    <!-- review section start here  -->
+    <section class="review" id="review">
+        <div class="heading">
+            <h2>About Us</h2>
+        </div>
+    
+        <div class="swiper review-row">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <div class="client-info">
+                        <div class="img">
+                            <img src="matt.jpg" alt="matt">
+                        </div>
+                        <div class="clientDetailed">
+                            <h3>Matt Batumbakal</h3>
+                            <p>CEO & Founder</p>
+                            <p>mattbatumbakal@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="client-info">
+                        <div class="img">
+                            <img src="MARK.jpg" alt="Mark Masipag">
+                        </div>
+                        <div class="clientDetailed">
+                            <h3>Mark Masipag</h3>
+                            <p>Head Chef</p>
+                            <p>markmasipag@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="client-info">
+                        <div class="img">
+                            <img src="jjj.jpg" alt="Fary Dout">
+                        </div>
+                        <div class="clientDetailed">
+                            <h3>Fary Dout</h3>
+                            <p>Asst. Chef</p>
+                            <p>Farydout@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="client-info">
+                        <div class="img">
+                            <img src="maria.jpg" alt="maria">
+                        </div>
+                        <div class="clientDetailed">
+                            <h3>Maria Peninsula</h3>
+                            <p>Co-Founder</p>
+                            <p>mariapeninsula@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- review section ends here  -->
+	
+    <!-- footer section start here  -->
+
+    <footer class="footer" id="contact">
+        <div class="box-container">
+            <div class="mainBox">
+                <div class="content">
+                    
+                    <h1 class="logoName"> Sweet Haven </h1>
+                </div>
+
+                <p>When Life Goes Awry, Have A Piece Of Cake.</p>
+				<p>Cake is for life not just for birthdays.</p>
+				
+
+            </div>
+            <div class="box">
+                <h3>Go To Top</h3>
+                <a href="#"> <i class="fas fa-arrow-right"></i>Home</a>
+                
+            </div>
+            
+            <div class="box">
+                <h3>Contact Info</h3>
+                <a href="#"> <i class="fas fa-phone"></i>+63 963 891 5600</a>
+                <a href="#"> <i class="fas fa-envelope"></i>sweethaven@gmail.com</a>
+
+            </div>
+
+        </div>
+        <div class="share">
+            <a href="https://www.facebook.com/profile.php?id=100009170343869&mibextid=ZbWKwL" class="fab fa-facebook-f"></a>
+            <a href="https://twitter.com/meowigweys" class="fab fa-twitter"></a>
+            <a href="https://www.instagram.com/itsmegrasyana/" class="fab fa-instagram"></a>
+            
+        </div>
+        <div class="credit">
+            Created by <span>MGCL </span> |All Rights Reserved ! 
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+    <!-- swiper js link  -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- custom js file  -->
+    <script src="index.js"></script>
+
+    <script>
+        window.addEventListener('scroll', function() {
+            var header = document.querySelector('.header');
+            header.classList.toggle('sticky', window.scrollY > 0);
+        });
+    </script>
+    
+
+</body>
+
+</html>
